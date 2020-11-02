@@ -1,5 +1,20 @@
 # Watchdog nodejs
 
+## Configure
+```json
+config.json (exampe)
+{
+    "webserverExecCmd": "./go-webserver",
+    "webserverAddr": "https://localhost:9443/v2/healthCheck/", 
+    "limitCnt": 3,
+    "mailAddr": "[GOOGLE_EMAIL_ADDRESS]",
+    "mailPassword": "[GOOGLE EMAIL PASSWORD]"
+}
+```
+```bash
+$ npm install
+$ node watch.js
+```
 ### Alive
 ![image](https://user-images.githubusercontent.com/10591350/97842351-d687fb80-1d2a-11eb-8eaa-d0839406145b.png)
 
