@@ -1,0 +1,7 @@
+{
+    "webserverExecCmd": "[WEBSERVER_EXEC_COMMAND]",
+    "webserverAddr": "[WEBSERVER_HEALTHCHECK_API]", 
+    "limitCnt": [NUMBER_OF_LIMIT_FAIL_COUNT],
+    "mailAddr": "[GOOGLE_EMAIL_ADDRESS]",
+    "mailPassword": "[GOOGLE EMAIL PASSWORD]"
+}
