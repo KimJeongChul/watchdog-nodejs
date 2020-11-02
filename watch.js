@@ -22,7 +22,7 @@ let transporter = nodemailer.createTransport({
 
 // startServer Start your webserver
 function startServer(){
-	serverSpawned=spawn(config.webserverExecCmd, ['./serverConfig.json']);
+	serverSpawned=spawn(config.webserverExecCmd);
 	serverSpawned.stdout.on('data',(data)=>{
 		console.log('Spawned Std:'+data);
 	});
