@@ -1,0 +1,29 @@
+{
+  "name": "watchdog-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimJeongChul/watchdog-nodejs.git"
+  },
+  "keywords": [
+    "watchdog"
+  ],
+  "author": "KimJeongChul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimJeongChul/watchdog-nodejs/issues"
+  },
+  "homepage": "https://github.com/KimJeongChul/watchdog-nodejs#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "nodemailer": "^6.4.14",
+    "ps-node": "^0.1.6",
+    "request": "^2.88.2",
+    "uuid": "^8.3.1"
+  }
+}
